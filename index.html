@@ -1,39 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-   
     <title>Reservia</title>
-
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
-
-    <div>
-        <img src="images/logo/Reservia.svg">
-    </div>
-    
-    <nav>
-        <ul>
-            <li>Hébergements</li>
-            <li>Activités</li>
-            <li>S'inscrire</li>
-        </ul>
-    </nav>
-
 </head>
 
 <body>
+
+    <header>
+        <div id="logo">
+        <img src="images/logo/Reservia.svg">
+        </div>
+
+        <nav>
+            <ul class="menu">
+             <li><a href="#Hébergements" class="color">Hébergements</a></li>
+             <li><a href="#Activités" class="color">Activités</a></li>
+             <link>S'inscrire</link>
+         </ul>
+        </nav>
+    </header>
+
     <div>
         <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
         <h3>En plein centre ville ou en pleine nature</h3>
-
     </div>
 
-    <section>
+    <div>
+        <input type="search" id="site-search" name="q"
+       aria-label="Search through site content">
+        <button>Rechercher</button>
+    </div>
+
+    <div> Filtres
+        <button>Economique</button>
+        <button>Familial</button>
+        <button>Romantique</button>
+        <button>Animaux autorisés</button>
+    </div>
+
+    <div>
+        <span>Plus de 500 logements sont disponibles dans cette ville</span>
+    </div>
+
+    <section id="Hébergements">
         <div>Hébergements à Marseille</div>
         <div>Les plus populaires</div>
     </section>
 
-    <section>Activités à Marseille</section>
+    <section id="Activités">Activités à Marseille</section>
 
     <footer>
         <div>A propos

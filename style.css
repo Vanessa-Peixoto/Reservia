@@ -1,0 +1,33 @@
+header{
+    display: flex;
+}
+
+#logo{
+    width: 100%;
+}
+
+nav{
+    width: 30%;
+    display: flex;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+.color:hover{
+    color: blue;
+    border-top: blue 1px solid;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
