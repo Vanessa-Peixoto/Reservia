@@ -31,3 +31,43 @@ a{
     text-decoration: none;
     color: black;
 }
+
+
+/* Hébergements*/
+
+.logement{
+    background-color: #F2F2F2;
+    margin: 0;
+}
+.hotel{
+    display: flex;
+    justify-content: space-around;
+}
+
+.forme{
+    width: 200px;
+    background-color:white;
+    height: 150px;
+    border-radius: 10px;
+    position: relative;
+    padding: 7px;
+}
+
+.forme .description{
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    width: 94%;
+    height: 35%;
+}
+
+.forme img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.forme .description p{
+    margin: 3px 0 0 0;
+
+}
