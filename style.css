@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "mafont";
+    src: url("fonts/Raleway-VariableFont_wght.ttf");
+}
+
+body{
+    font-family: "mafont";
+}
+
 header{
     display: flex;
 }
@@ -23,8 +32,8 @@ ul{
 }
 
 .color:hover{
-    color: blue;
-    border-top: blue 1px solid;
+    color: #0065FC;
+    border-top: #0065FC 1px solid;
 }
 
 a{
@@ -32,16 +41,72 @@ a{
     color: black;
 }
 
+.link{
+    color: #0065FC;
+    font-weight: bold;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.search{
+    display: flex;
+}
+
+input{
+    width: 235px;
+    height: 28px;
+}
+
+.recherche{
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#filtre{
+ margin-top: 20px;
+ font-weight: bold;
+}
+
+.btn{
+    color:#0065FC ;
+    position: absolute;
+    background-color: #DEEBFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.filtre{
+    position: relative;
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+
 
 /* Hébergements*/
 
+#article{
+    display: flex;
+    justify-content: space-between;
+}
+
 .logement{
     background-color: #F2F2F2;
-    margin: 0;
+    padding: 25px 10px 25px 10px;
+    border-radius: 15px;
 }
+
 .hotel{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .forme{
@@ -51,6 +116,7 @@ a{
     border-radius: 10px;
     position: relative;
     padding: 7px;
+    margin-bottom: 20px;
 }
 
 .forme .description{
@@ -61,6 +127,12 @@ a{
     height: 35%;
 }
 
+.description h3{
+    margin: 0;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
 .forme img{
     border-radius: 5px;
     width: 100%;
@@ -68,6 +140,16 @@ a{
 }
 
 .forme .description p{
-    margin: 3px 0 0 0;
-
+    margin: 3px 0;
+    font-size: 12px;
 }
+
+.note{
+    font-size: 9px;
+    color:#0065FC ;
+}
+
+aside{
+    margin-left: 33px;
+}
+
