@@ -203,3 +203,22 @@ aside{
     margin-bottom: 34%;
     font-size: 13px;
 }
+
+
+
+.acti{
+    background-image: url(images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    width: 300px;
+    height: 445px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    background-color:#F2F2F2 ;
+}
